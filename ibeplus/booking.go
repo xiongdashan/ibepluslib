@@ -3,8 +3,9 @@ package ibeplus
 import (
 	"encoding/xml"
 	"fmt"
-	"ibepluslib/models"
 	"time"
+
+	"github.com/otwdev/ibepluslib/models"
 
 	"github.com/otwdev/galaxylib"
 

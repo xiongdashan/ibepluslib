@@ -3,9 +3,10 @@ package ibeplus
 import (
 	"encoding/xml"
 	"fmt"
-	"ibepluslib/models"
 	"strconv"
 	"time"
+
+	"github.com/otwdev/ibepluslib/models"
 
 	"github.com/otwdev/galaxylib"
 )

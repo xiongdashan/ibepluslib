@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"encoding/xml"
-	"fmt"
 	"io/ioutil"
 	"net/http"
 
@@ -33,7 +32,7 @@ func (i *IBEPlus) Reqeust() (buffer []byte, retErr *galaxylib.GalaxyError) {
 
 	buffer = nil
 
-	fmt.Println(i.RequestParms)
+	// fmt.Println(i.RequestParms)
 	paramsJSON, err := json.Marshal(i)
 	if err != nil {
 		retErr = galaxylib.DefaultGalaxyError.FromError(1, err)

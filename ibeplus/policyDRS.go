@@ -1,7 +1,7 @@
 package ibeplus
 
 import (
-	"ibepluslib/models"
+	"github.com/otwdev/ibepluslib/models"
 
 	"github.com/otwdev/galaxylib"
 )

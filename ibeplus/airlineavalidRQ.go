@@ -2,7 +2,8 @@ package ibeplus
 
 import (
 	"encoding/xml"
-	"ibepluslib/models"
+
+	"github.com/otwdev/ibepluslib/models"
 
 	"github.com/otwdev/galaxylib"
 
